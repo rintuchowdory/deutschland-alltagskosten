@@ -153,6 +153,19 @@ export default function Home() {
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-gradient-to-tr from-[#B500FF] to-transparent opacity-5 blur-3xl"></div>
       </div>
 
+      {/* Header with Comparison Link */}
+      <header className="relative pt-4 pb-2 px-4 md:px-8 border-b border-[#00D9FF]/10">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
+          <div></div>
+          <a
+            href="/comparison"
+            className="px-4 py-2 rounded border border-[#B500FF]/50 text-[#B500FF] hover:bg-[#B500FF]/10 transition-all text-sm font-semibold"
+          >
+            🔄 Vergleichsmodus
+          </a>
+        </div>
+      </header>
+
       {/* Hero Section */}
       <section className="relative pt-12 pb-16 md:pt-20 md:pb-24 px-4 md:px-8">
         <div className="max-w-7xl mx-auto">
